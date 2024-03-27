@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .clip_path{
+        clip-path: polygon(0 1%, 100% 0, 100% 87%, 49% 100%, 0 83%, 0% 50%);
+    }
+    .heading{
+        @apply text-[30px] md:text-[35px] lg:text-[40px] xl:text-[50px] text-gray-900 font-bold uppercase md:leading-[4rem] leading-[3rem] text-center
+    }
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+input[type="time"]::-webkit-calendar-picker-indicator::after {
+    filter: invert(1);
+}
