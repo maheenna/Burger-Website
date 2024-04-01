@@ -16,8 +16,8 @@ const Nav = ({openNav}:Props) => {
                 {/* logo design */}
                 <div className='flex items-center space-x-2'>
 
-                    <FaBurger className='h-[1.2rem] w-[1.2rem] sm:w-[1.4rem] sm:h-[1.4rem] text-orange-500' />
-                    <h1 className='text-[20px] sm:text-[30px] font-semibold'>BurgerBite</h1>
+                    
+                    <h1 className='text-[20px] sm:text-[30px] font-semibold'>AncestorHub</h1>
                 </div>
                 {/* Nav Links */}
 
@@ -26,20 +26,20 @@ const Nav = ({openNav}:Props) => {
                         <Link className='text-[20px] font-medium hover:text-red-600' href='/'>Home</Link>
                     </li>
                     <li>
-                        <Link className='text-[20px] font-medium hover:text-red-600' href='/'>Shop</Link>
+                        <Link className='text-[20px] font-medium hover:text-red-600' href='/About'>About</Link>
                     </li>
                     <li>
-                        <Link className='text-[20px] font-medium hover:text-red-600' href='/'>Menu</Link>
+                        <Link className='text-[20px] font-medium hover:text-red-600' href='/FQA'>FQA</Link>
                     </li>
                     <li>
-                        <Link className='text-[20px] font-medium hover:text-red-600' href='/'>Blog</Link>
+                        <Link className='text-[20px] font-medium hover:text-red-600' href='/Profile'>Profile</Link>
                     </li>
                     <li>
-                        <Link className='text-[20px] font-medium hover:text-red-600' href='/'>Contact</Link>
+                        <Link className='text-[20px] font-medium hover:text-red-600' href='/Contact'>Contact</Link>
                     </li>
                 </ul>
                 <div className='flex items-center space-x-4'>
-                    <button className='px-6 py-2 sm:px-8 sm:py-3 text-[14px] sm:text-[16px] bg-blue-950 transition-all duration-200 hover:bg-red-600 flex rounded-md item-center space-x-2 text-white'>
+                    <button className='px-6 py-2 sm:px-8 sm:py-3 text-[14px] sm:text-[16px] bg-blue-950 transition-all duration-200 hover:bg-blue-600 flex rounded-md item-center space-x-2 text-white'>
                         <span>
                             <BiCycling className='w-[1.3rem] h-[1.3rem] sm:w-[1.7rem] sm:h-[1.7rem]' />
                         </span>
@@ -47,7 +47,7 @@ const Nav = ({openNav}:Props) => {
                             Order Now
                         </span>
                     </button>
-                    <button className='sm:px-6 sm:py-3 px-4 py-2 hover:bg-green-700 transition-all duration-200 bg-orange-600 flex items-center rounded-md text-white'>
+                    <button className='sm:px-6 sm:py-3 px-4 py-2 hover:bg-green-700 transition-all duration-200 bg-black flex items-center rounded-md text-white'>
                         <BiShoppingBag className='w-[1.3rem] h-[1.3rem] sm:w-[1.7rem] sm:h-[1.7rem]' />
                     </button>
                     <HiBars3BottomRight onClick={openNav} className='lg:hidden h-[2rem] w-[2rem] text-black' />

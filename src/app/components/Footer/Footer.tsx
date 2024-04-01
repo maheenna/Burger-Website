@@ -9,18 +9,18 @@ const Footer = () => {
         <div>
           <div className='flex items-center text-white space-x-2'>
 
-            <FaBurger className='h-[1.2rem] w-[1.2rem] sm:w-[1.4rem] sm:h-[1.4rem] text-orange-500' />
-            <h1 className='text-[20px] sm:text-[30px] font-semibold'>BurgerBite</h1>
+            
+            <h1 className='text-[20px] sm:text-[30px] font-semibold'>Project</h1>
           </div>
           <p className='text-white text-opacity-60 mt-[0.4rem] '>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, iure  
+            Lorem ipsum dolor sit <br /> amet consectetur adipisicing <br /> elit. Architecto, iure  
           </p>
           <p className='mt-[1rem] text-white'>Support@example.com</p>
           <p className='text-red-300 text-[19px] font-bold'>+(123) 3456 67897</p>
         </div>
         {/* 2nd part  */}
         <div>
-          <h1 className='text-[23px] font-semibold mb-[2rem] text-white'>Products</h1>
+          <h1 className='text-[23px] font-semibold mb-[2rem] text-white'>Application</h1>
           <p className='text-white mt-[0.7rem] text-opacity-60 transition-all duration-200 hover:text-yellow-300 cursor-pointer w-fit'>Chicken Burger</p>
           <p className='text-white mt-[0.7rem] text-opacity-60 transition-all duration-200 hover:text-yellow-300 cursor-pointer w-fit'>Beef Burger</p>
           <p className='text-white mt-[0.7rem] text-opacity-60 transition-all duration-200 hover:text-yellow-300 cursor-pointer w-fit'>Crispy Burger</p>
@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
         {/* 3rd part */}
         <div>
-          <h1 className='text-[23px] font-semibold mb-[2rem] text-white'>Quick Link</h1>
+          <h1 className='text-[23px] font-semibold mb-[2rem] text-white'>Useful Links</h1>
           <p className='text-white mt-[0.7rem] text-opacity-60 transition-all duration-200 hover:text-yellow-300 cursor-pointer w-fit'>Home</p>
           <p className='text-white mt-[0.7rem] text-opacity-60 transition-all duration-200 hover:text-yellow-300 cursor-pointer w-fit'>About</p>
           <p className='text-white mt-[0.7rem] text-opacity-60 transition-all duration-200 hover:text-yellow-300 cursor-pointer w-fit'>Menu</p>

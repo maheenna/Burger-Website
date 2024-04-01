@@ -2,7 +2,7 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <div className='pt-[5rem] pb-[5rem]'>
+    <div className='pt-[5rem] pb-[5rem] bg-white'>
         <div className='text-center'>
             <h1 className='text-[50px] sm:text-[28] md:[38px] text-black font-extrabold uppercase'>
                 Join for hot offers
